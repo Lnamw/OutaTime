@@ -48,6 +48,7 @@
     //
     // 2. The view should be titled "Time Circuits"
     //
+    self.title = @"Time Circuit";
     
     //
     // 3. This is a good place to initialize the objects that will be used later on.
@@ -117,7 +118,7 @@
         //
         
         //[timePickerVC.delegate destinationDateWasChosen:];
-        //timePickerVC.delegate =
+        timePickerVC.delegate = self;
         
         
         
